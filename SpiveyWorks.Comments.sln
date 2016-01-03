@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA2A198B-4A97-4690-AE37-CFD47D21766C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E65817E-2785-4BF7-AB6F-11FDF2294C58}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SpiveyWorks.Comments", "src\SpiveyWorks.Comments\SpiveyWorks.Comments.xproj", "{F7C4BD27-08BB-4255-8F6A-45FB88F092A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C4BD27-08BB-4255-8F6A-45FB88F092A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C4BD27-08BB-4255-8F6A-45FB88F092A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C4BD27-08BB-4255-8F6A-45FB88F092A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C4BD27-08BB-4255-8F6A-45FB88F092A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7C4BD27-08BB-4255-8F6A-45FB88F092A9} = {FA2A198B-4A97-4690-AE37-CFD47D21766C}
+	EndGlobalSection
+EndGlobal
